@@ -1,0 +1,141 @@
+
+.header{
+    width: 100%;
+    height: 44px;
+    background: red;
+    padding-top:3px ;
+}
+
+.filter-section{
+    width: 85%;
+    box-shadow: 10px 10px 15px 2px red;
+    padding: 10px 0px 10px 12px;
+    margin-bottom: 20px;
+    background: white;
+}
+.item1{
+    display: inline-block;
+    width: 30%;
+    height: 245px;
+    margin: 0%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 15px 2px red;
+    margin-bottom: 25px;
+    background: white;
+}
+.heading{
+    font-size: 30px;
+    font-family: cursive;
+    font-weight: bold;
+    line-height: 2;
+}
+.text-style{
+    font-family: cursive;
+    font-weight: bold;
+    color: blue;
+    line-height: 2;
+}
+.filter{
+    font-size: 20px;
+}
+.sub-heading{
+    font-size: 17px;
+    line-height: 3;
+}
+.select{
+    width: 70%;
+    color: darkgrey;
+}
+.filter-option{
+    color: darkgrey;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.click-box{
+    width: 17px;
+    height: 17px;
+}
+.filter-icon{
+    float: right;
+    border: 1px solid red;
+    width: 20px;
+    height: 20px;
+    background: skyblue;
+    margin: 13px;
+    color: red;
+    padding:2px 0 0 3px ;
+    visibility: hidden;
+    
+}
+.box1{
+    display: inline-block;
+    border: 1px solid white;
+    width: 100%;
+    height: 50%;
+}
+.img1{
+    
+    width: 40%;
+    height: 90%;
+    margin: 5px;
+    float: left;
+}
+.text{ 
+    width: 60%;
+    height: 85%;
+    margin-top: 30px;
+    margin-left: 37%;
+    font-size: 20px;
+    color: darkblue;
+}
+.box2{
+    
+    width: 100%;
+    height: 45%;
+}
+.box2-list{
+    margin: 2%;
+}
+
+.pagination{
+    margin-left: 28%;
+}
+.page{
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 4px 3px 4px 2px red;
+    border-radius: 6px;
+    color: blue;
+    background: white;
+}
+.right-box{
+    display: inline-block;
+    position: absolute;
+    left: 25%;
+}
+.No-record{
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    margin-left: 25%;
+}
+@media only screen and (max-width:600px){
+    .filter-icon{
+        visibility: visible;
+    }
+    .item{
+        height: 240px;
+    }
+    .img{
+        width: 25%;
+        height:85% ;
+    }
+    .text{
+        margin-left: 34%;
+    }
+    .pagination{
+        margin-left: 18%;
+    }
+}

@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    height: 44px;
+    background: red;
+    padding-top:3px ;
+}
+.header-logo{
+    border:1px solid red;
+    width: 39px;
+    height: 39px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px;
+    padding-top: 1px;
+    color:red;
+    background:white;
+    margin-left: 2px;
+    float: left;
+}
+.lg a{
+    text-decoration: none;
+    color:white;
+}
+.reg{
+    float:right;
+    border:1px solid wheat;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    margin-right: 5px;
+    box-shadow: 2px 3px 5px rgb(128, 128, 128);
+
+}
+.logout{
+    float:right;
+    border:1px solid wheat;
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    margin-right: 6px;
+    box-shadow: 2px 3px 5px rgb(128, 128, 128);
+}
+.login{
+    float:right;
+    width: 80px;
+    height: 20px;
+    font-size: 20px;
+    margin: 4px 0 0 4px;
+}
+.sigin{
+    float:right;
+    width: 100px;
+    height: 16px;
+    font-size: 16px;
+    margin: 4px 4px 0 4px;
+}
